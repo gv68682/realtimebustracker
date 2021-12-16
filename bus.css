@@ -1,0 +1,58 @@
+.stopped1 {
+    background-image: url('red.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;       
+    cursor: pointer;
+}
+.stopped  {
+    background-image: url('blue.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;       
+    cursor: pointer;
+}
+.marker{
+    z-index: 5;
+    position: absolute;
+    left: 210px;
+    top: 200px;           
+    height: 20px;
+    width: 40px;
+    border-radius: 10% 20%;
+    background-color: blue;
+}
+
+h2{
+    color: red;
+    position: fixed;
+    top: 0%;
+    left: 26%;
+} 
+p2{
+    color: grey;
+    position: fixed;
+    top: 6%;
+    left: 26%;
+} 
+input[type=text] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 5px;
+    }
+    #find-busstatus {
+    background-color: blue;/*#4CAF50;  */
+    border: none;
+    color: white;
+    padding: 13px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight : bold ;
+} 
+#map { position: absolute; top: 130px; left: 200px;height:600px; bottom: 0; width: 60%; }

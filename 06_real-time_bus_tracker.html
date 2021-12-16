@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Real Time Bus Tracker</title>
+	<link rel = "stylesheet" href="bus.css">
+	<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />  
+</head>
+<body>	
+	<h2> Real Time Bus Tracker ( Try Between MIT And Harvard) </h2>
+	<div id="map" ></div>
+	<!-- <div id="map" style="width: 100%; top:0; bottom: 0; position: absolute;"></div>   style="width:1524px; left:400px; height:900px; top:100px"-->
+	<div>
+        <input type = 'text' id = 'route-input' placeholder="Enter 1 or 4 not 6">
+        <button id= 'find-busstatus' onclick="init(),run()">Find Bus Status</button><br>
+        <button onclick="document.getElementById('route-input').value = ''">Clear</button>
+    </div>
+	<p2> Zoom out if u can't see buses on the map.</p2>
+</body>
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+<script src="mapanimation.js"></script>
+</html>
+
+
