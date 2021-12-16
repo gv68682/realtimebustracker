@@ -1,8 +1,9 @@
 # Bus Project
-<img src= "busmap.jpg" width='300'/>
+
 
 ## Title of the project:  
-Real Time Bus Tracker
+### Real Time Bus Tracker
+<img src= "busmap.jpg" width='200'/>
 ## Description of the project:
 In this project tracked all buses for a specific route.
 ## How to Run: 
